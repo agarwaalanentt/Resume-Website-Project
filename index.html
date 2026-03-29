@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anentt Agarwaal | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anentt Agarwaal | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;0,700;1,300;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
-    <header>
-        <h1>Anentt Agarwaal</h1>
-        <p>IIM Bangalore BBA | Digital Marketer | Entrepreneur | Event Manager</p>
-        <a href="#contact" class="btn">Contact Me</a>
-    </header>
-
-    <nav>
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">AA</span>
+      <div class="nav-links">
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#projects">Projects</a>
@@ -22,110 +23,304 @@
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
+  <!-- HERO -->
+  <header id="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <p class="eyebrow">IIM Bangalore &nbsp;·&nbsp; BBA Digital Business &amp; Entrepreneurship</p>
+      <h1>Anentt<br/><em>Agarwaal</em></h1>
+      <p class="hero-sub">Digital Marketer &nbsp;·&nbsp; Entrepreneur &nbsp;·&nbsp; Event Manager</p>
+      <div class="hero-tags">
+        <span class="tag">Google Ads</span>
+        <span class="tag">Meta Ads</span>
+        <span class="tag">Lead Generation</span>
+        <span class="tag">Event Promotion</span>
+        <span class="tag">SEO</span>
+      </div>
+      <a href="#contact" class="btn">Get In Touch</a>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-header">
+      <span class="section-label">01 — About</span>
+      <h2>Who I Am</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
         <p>
-            I am a Digital Marketer and Entrepreneur currently pursuing BBA in Digital Business 
-            and Entrepreneurship from IIM Bangalore. I specialize in Google Ads, Meta Ads,
-            local business marketing, and event promotions. I have worked with businesses in
-            tiles, sanitaryware, hospitality, and entertainment industries.
+          I am a Digital Marketer and Entrepreneur currently pursuing BBA in Digital Business
+          and Entrepreneurship from <strong>IIM Bangalore</strong>. I specialize in Google Ads,
+          Meta Ads, local business marketing, and event promotions.
         </p>
-    </section>
-
-    <section id="services">
-        <h2>Services</h2>
-        <div class="card">Google Ads Campaign Management</div>
-        <div class="card">Meta Ads (Facebook & Instagram Ads)</div>
-        <div class="card">Local Business Marketing</div>
-        <div class="card">Event Promotion & Ticket Sales</div>
-        <div class="card">Lead Generation Campaigns</div>
-        <div class="card">Website Building & SEO</div>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <div class="project">
-            <h3>Sapphire Stays</h3>
-            <p>Founded and marketed luxury villa stays. Generated leads and bookings using Meta Ads and Google Ads.</p>
+        <p class="about-text-2">
+          I have worked with businesses across tiles, sanitaryware, hospitality, and
+          entertainment — helping them grow their presence, generate leads, and convert
+          audiences into loyal customers.
+        </p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-box">
+          <span class="stat-num">4+</span>
+          <span class="stat-label">Years of Experience</span>
         </div>
-
-        <div class="project">
-            <h3>Waterchem</h3>
-            <p>Managed marketing campaigns and branding for bathroom fittings and sanitary products company.</p>
+        <div class="stat-box">
+          <span class="stat-num">4</span>
+          <span class="stat-label">Brands Marketed</span>
         </div>
-
-        <div class="project">
-            <h3>Sapphire Events</h3>
-            <p>Organized and promoted live events and stand-up comedy shows.</p>
+        <div class="stat-box">
+          <span class="stat-num">3</span>
+          <span class="stat-label">Ventures Founded</span>
         </div>
-
-        <div class="project">
-            <h3>R S Ceramics Marketing</h3>
-            <p>Ran Google Ads campaigns focused on walk-ins and local customers for tiles and sanitaryware showroom.</p>
+        <div class="stat-box">
+          <span class="stat-num">IIM</span>
+          <span class="stat-label">Bangalore</span>
         </div>
+      </div>
+    </div>
+  </section>
 
-    </section>
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="section-header">
+      <span class="section-label">02 — Services</span>
+      <h2>What I Offer</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="service-icon">◈</span>
+        <h3>Google Ads</h3>
+        <p>Search, display, and local campaigns designed to drive walk-ins, leads, and conversions.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">◈</span>
+        <h3>Meta Ads</h3>
+        <p>Facebook &amp; Instagram ad strategies crafted for brand awareness and measurable ROI.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">◈</span>
+        <h3>Local Business Marketing</h3>
+        <p>Hyperlocal campaigns that bring the right customers to your doorstep.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">◈</span>
+        <h3>Event Promotion &amp; Ticket Sales</h3>
+        <p>End-to-end promotion for live events, shows, and entertainment experiences.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">◈</span>
+        <h3>Lead Generation</h3>
+        <p>Targeted campaigns that fill your pipeline with qualified, high-intent prospects.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">◈</span>
+        <h3>Website Building &amp; SEO</h3>
+        <p>Clean, fast websites backed by on-page SEO to rank and convert.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li>Marketing Intern – FCR Group (2025 – Present)</li>
-            <li>Founder – Sapphire Stays (2025)</li>
-            <li>Marketing Manager – Waterchem (2024)</li>
-            <li>Event Organizer – Sapphire Events (2021 – 2023)</li>
-        </ul>
-    </section>
-
-    <section id="education">
-        <h2>Education</h2>
-
-        <div class="edu">
-            <h3>Indian Institute of Management Bangalore</h3>
-            <p>BBA in Digital Business & Entrepreneurship (2025 – 2028)</p>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-header">
+      <span class="section-label">03 — Projects</span>
+      <h2>Selected Work</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="projects-list">
+      <div class="project-card">
+        <div class="project-num">01</div>
+        <div class="project-body">
+          <h3>Sapphire Stays</h3>
+          <p>Founded and marketed a luxury villa stays brand. Drove bookings and leads end-to-end using Meta Ads and Google Ads — from brand identity to conversion campaigns.</p>
+          <div class="project-tags">
+            <span>Meta Ads</span><span>Google Ads</span><span>Hospitality</span>
+          </div>
         </div>
-
-        <div class="edu">
-            <h3>Boys' High School & College</h3>
-            <p>Senior Secondary (2022 – 2024)</p>
+      </div>
+      <div class="project-card">
+        <div class="project-num">02</div>
+        <div class="project-body">
+          <h3>Waterchem</h3>
+          <p>Led marketing campaigns and brand building for a bathroom fittings and sanitary products company — covering digital ads, positioning, and content strategy.</p>
+          <div class="project-tags">
+            <span>Branding</span><span>Digital Ads</span><span>Sanitaryware</span>
+          </div>
         </div>
-
-        <div class="edu">
-            <h3>SGVP International School</h3>
-            <p>Secondary Education (2022)</p>
+      </div>
+      <div class="project-card">
+        <div class="project-num">03</div>
+        <div class="project-body">
+          <h3>Sapphire Events</h3>
+          <p>Organized and promoted live events and stand-up comedy shows, managing ticket sales, social promotions, and on-ground execution.</p>
+          <div class="project-tags">
+            <span>Event Management</span><span>Ticket Sales</span><span>Social Media</span>
+          </div>
         </div>
-
-        <div class="edu">
-            <h3>St. Joseph's College, Allahabad</h3>
-            <p>Junior School</p>
+      </div>
+      <div class="project-card">
+        <div class="project-num">04</div>
+        <div class="project-body">
+          <h3>R S Ceramics Marketing</h3>
+          <p>Ran targeted Google Ads campaigns for a tiles and sanitaryware showroom, focused on driving local foot traffic and walk-in conversions.</p>
+          <div class="project-tags">
+            <span>Google Ads</span><span>Local Marketing</span><span>Tiles &amp; Ceramics</span>
+          </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-    </section>
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-header">
+      <span class="section-label">04 — Experience</span>
+      <h2>Career Timeline</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-meta">2025 – Present</div>
+        <div class="timeline-content">
+          <h3>Marketing Intern</h3>
+          <span class="timeline-company">FCR Group</span>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-meta">2025</div>
+        <div class="timeline-content">
+          <h3>Founder</h3>
+          <span class="timeline-company">Sapphire Stays</span>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-meta">2024</div>
+        <div class="timeline-content">
+          <h3>Marketing Manager</h3>
+          <span class="timeline-company">Waterchem</span>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-meta">2021 – 2023</div>
+        <div class="timeline-content">
+          <h3>Event Organizer</h3>
+          <span class="timeline-company">Sapphire Events</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="card">Google Ads</div>
-        <div class="card">Meta Ads</div>
-        <div class="card">SEO</div>
-        <div class="card">Website Building</div>
-        <div class="card">Project Management</div>
-        <div class="card">Event Marketing</div>
-        <div class="card">Lead Generation</div>
-        <div class="card">Business Development</div>
-    </section>
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-header">
+      <span class="section-label">05 — Education</span>
+      <h2>Academic Background</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card featured">
+        <span class="edu-year">2025 – 2028</span>
+        <h3>Indian Institute of Management Bangalore</h3>
+        <p>BBA in Digital Business &amp; Entrepreneurship</p>
+      </div>
+      <div class="edu-card">
+        <span class="edu-year">2022 – 2024</span>
+        <h3>Boys' High School &amp; College</h3>
+        <p>Senior Secondary Education</p>
+      </div>
+      <div class="edu-card">
+        <span class="edu-year">2022</span>
+        <h3>SGVP International School</h3>
+        <p>Secondary Education</p>
+      </div>
+      <div class="edu-card">
+        <span class="edu-year">Earlier</span>
+        <h3>St. Joseph's College, Allahabad</h3>
+        <p>Junior School</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Phone: 7800005177</p>
-        <p>Email: agarwaalanentt@gmail.com</p>
-        <p>LinkedIn: www.linkedin.com/in/anentt-agarwaal</p>
-    </section>
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-header">
+      <span class="section-label">06 — Skills</span>
+      <h2>Expertise</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="skills-wrap">
+      <span class="skill-pill">Google Ads</span>
+      <span class="skill-pill">Meta Ads</span>
+      <span class="skill-pill">SEO</span>
+      <span class="skill-pill">Website Building</span>
+      <span class="skill-pill">Project Management</span>
+      <span class="skill-pill">Event Marketing</span>
+      <span class="skill-pill">Lead Generation</span>
+      <span class="skill-pill">Business Development</span>
+      <span class="skill-pill">Brand Strategy</span>
+      <span class="skill-pill">Content Strategy</span>
+    </div>
+  </section>
 
-    <footer>
-        <p>© 2026 Anentt Agarwaal | Sapphire Theme Portfolio</p>
-    </footer>
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-header">
+      <span class="section-label">07 — Contact</span>
+      <h2>Let's Work Together</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="contact-grid">
+      <a class="contact-card" href="tel:7800005177">
+        <span class="contact-icon">☎</span>
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">+91 78000 05177</span>
+      </a>
+      <a class="contact-card" href="mailto:agarwaalanentt@gmail.com">
+        <span class="contact-icon">✉</span>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">agarwaalanentt@gmail.com</span>
+      </a>
+      <a class="contact-card" href="https://www.linkedin.com/in/anentt-agarwaal" target="_blank">
+        <span class="contact-icon">in</span>
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">anentt-agarwaal</span>
+      </a>
+    </div>
+  </section>
 
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Anentt Agarwaal &nbsp;·&nbsp; Crafted with purpose</p>
+  </footer>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll(
+      'section, .project-card, .service-card, .edu-card, .timeline-item, .stat-box, .contact-card'
+    ).forEach(el => { el.classList.add('fade-in'); observer.observe(el); });
+  </script>
 </body>
 </html>
